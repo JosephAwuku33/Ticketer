@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, ScrollView } from "react-native";
+import { View } from "react-native";
 import EventList from "../../components/DataList/EventList";
 import LandingPageAbove from "../../components/LandingPageStuff/LandingPageAbove";
 
