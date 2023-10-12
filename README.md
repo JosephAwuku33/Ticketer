@@ -28,8 +28,20 @@ An Event Booking App, basically helps in selecting upcoming events and making pa
 - Cross platform
 
 
+
+
 ## Acknowledgements
 
  - [PayBox API](https://documenter.getpostman.com/view/24064276/2s8YsnYwRA)
  
 
+## Screenshots 
+<img src="https://github.com/JosephAwuku33/Ticketer/blob/master/assets/screenshots/pic1.jpg" width="320" height="640"/>
+<hr>
+<img src="https://github.com/JosephAwuku33/Ticketer/blob/master/assets/screenshots/pic2.jpg" width="320" height="640"/>
+<hr>
+<img src="https://github.com/JosephAwuku33/Ticketer/blob/master/assets/screenshots/pic3.jpg" width="320" height="640"/>
+<hr>
+<img src="https://github.com/JosephAwuku33/Ticketer/blob/master/assets/screenshots/pic4.jpg" width="320" height="640"/>
+
+##
