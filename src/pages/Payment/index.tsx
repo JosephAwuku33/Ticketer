@@ -35,7 +35,6 @@ export default function PaymentPage() {
 
   const validatePhoneNumber = () => {
     if (phoneNumber.trim() === "") {
-      //Alert.alert("Error", "Phone number cannot be empty");
       ToastAndroid.show("Phone number cannot be empty", ToastAndroid.LONG);
       return;
     }
@@ -43,7 +42,6 @@ export default function PaymentPage() {
     // Check if the phone number matches the format +233XXXXXXXXX
     const phoneNumberRegex = /^\+233\d{9}$/;
     if (!phoneNumberRegex.test(phoneNumber)) {
-      //Alert.alert("Error", "Invalid phone number format");
       ToastAndroid.show("Invalid phone number format", ToastAndroid.LONG);
       return;
     }

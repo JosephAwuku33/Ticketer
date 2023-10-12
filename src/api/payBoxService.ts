@@ -3,7 +3,7 @@ import { COOKIE_VALUE } from "@env";
 
 export const useAPI = async (phoneNumber: string, amount: number, selectedNetwork: string ) => {
   try {
-    var myHeaders = new Headers();
+    const myHeaders = new Headers();
     myHeaders.append(
       "Authorization",
       BEARER_TOKEN
@@ -13,7 +13,7 @@ export const useAPI = async (phoneNumber: string, amount: number, selectedNetwor
       COOKIE_VALUE
     );
 
-    var formdata = new FormData();
+    const formdata = new FormData();
     formdata.append("order_id", Math.random().toString(36).substring(7));
     formdata.append("currency", "GHS");
     formdata.append("amount", "1.00");
@@ -21,7 +21,7 @@ export const useAPI = async (phoneNumber: string, amount: number, selectedNetwor
     formdata.append("mobile_network", selectedNetwork);
     formdata.append("mobile_number", phoneNumber);
 
-    var requestOptions: RequestInit = {
+    const requestOptions: RequestInit = {
       method: "POST",
       headers: myHeaders,
       body: formdata,
